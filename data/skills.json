@@ -1,32 +1,32 @@
 [
     {
-        "image": "html-css.jpg",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "icon": "fa-code",
+        "title": "HTML - CSS - JavaScript",
+        "text": "Intégration d'interfaces responsives et accessibles, manipulation du DOM, création d'éléments dynamiques"
     },
     {
-        "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "icon": "fa-vial",
+        "title": "Tests logiciels",
+        "text": "Tests unitaires, fonctionnels, d'intégration et exploratoires, rédaction de cahiers de recette"
     },
     {
-        "image": "react.jpg",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "icon": "fa-bug",
+        "title": "Débogage",
+        "text": "Identification et correction d'anomalies sur un site ou une application existante"
     },
     {
-        "image": "gestion-de-projet.png",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "icon": "fa-toolbox",
+        "title": "Outils",
+        "text": "Cypress, Jira, Postman, Git, Visual Studio Code, Figma"
     },
     {
-        "image": "optimisation-et-debug.png",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "icon": "fa-people-group",
+        "title": "Management",
+        "text": "Gestion d'équipe et pilotage d'unité, animation et coordination des collaborateurs"
     },
     {
-        "image": "test.png",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "icon": "fa-diagram-project",
+        "title": "Gestion de projet / Agile",
+        "text": "Analyse des besoins, planification, méthodologie agile et suivi de projet"
     }
 ]
