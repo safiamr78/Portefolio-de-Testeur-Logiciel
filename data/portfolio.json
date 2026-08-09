@@ -1,20 +1,20 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "icon": "fa-vial-circle-check",
+        "title": "Eco Bliss Bath — Automatisation des tests",
+        "text": "Automatisation d'une campagne de tests end-to-end avec Cypress (JavaScript) pour une application e-commerce (frontend Angular, API Symfony/Docker). Tests API, fonctionnels et smoke tests, détection d'une faille XSS stockée, bilan de campagne documentant 4 anomalies.",
+        "link": "https://github.com/safiamr78/Eco-Bliss-Bath-V2"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "icon": "fa-file-contract",
+        "title": "Stratégie de test — Application TOMSEN (PayForge)",
+        "text": "Consultant en test pour une fintech fictive : revue d'exigences, stratégie de test (28 scénarios, méthodes, planning sur 6 sprints Agile), cahier de recette avec traçabilité exigences/cas de test.",
+        "link": "https://github.com/safiamr78/Portefolio-de-Testeur-Logiciel/blob/main/documents/strategie-test-tomsen.pdf"
     },
     {
         "image": "image3.png",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "title": "Application location immobilière Kasa",
+        "text": "Application web de location immobilière développée avec React et Vite. Navigation multi-pages (React Router), composants réutilisables (Slideshow, Collapse, Card, Banner), gestion des erreurs avec redirection 404, design responsive, tests unitaires avec Vitest.",
+        "link": "https://github.com/safiamr78/Kasa-react"
     }
 ]

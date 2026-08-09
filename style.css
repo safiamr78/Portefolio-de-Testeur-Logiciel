@@ -99,6 +99,12 @@
     text-align: center;
 }
 
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* contact */
 .contactColumn {
     display: flex;
@@ -107,6 +113,14 @@
 }
 .contactColumn i {
     color: #198754;
+}
+
+.card-icon-wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
 }
 
 /* footer */

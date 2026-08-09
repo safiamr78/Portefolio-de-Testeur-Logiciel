@@ -72,10 +72,12 @@ function createPortfolioFromJSON() {
             // Iterate through the JSON data and create HTML elements
             data.forEach((item, index) => {
                 const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
+                card.classList.add("col-lg-4", "mt-4", "d-flex");
                 card.innerHTML = `
-                    <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" style="width:100%" alt="${item.title}">
+                    <div class="card portfolioContent h-100 w-100">
+                    ${item.icon
+    ? `<div class="card-icon-wrapper"><i class="fa-solid ${item.icon} fa-4x" style="color: #2c7873;"></i></div>`
+    : `<img class="card-img-top" src="images/${item.image}" style="width:100%" alt="${item.title}">`}
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
