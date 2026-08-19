@@ -77,8 +77,9 @@
     display: block;
     width: fit-content;
     margin: 0.3em auto;
-    background-color: #05050f;
+    background-color: rgba(5, 5, 15, 0.2);
     padding: 0.2em 0.6em;
+    border-radius: 6px;
 }
 
 /* about */
