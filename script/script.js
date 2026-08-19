@@ -1,4 +1,4 @@
-// Function to add the "navbarDark" class to the navbar on scroll
+// Fonction permettant d'ajouter une classe à la navbar lorsque l'utilisateur fait défiler la page
 function handleNavbarScroll() {
     const header = document.querySelector(".navbar");
     window.onscroll = function () {
@@ -11,7 +11,7 @@ function handleNavbarScroll() {
     };
 }
 
-// Function to handle navbar collapse on small devices after a click
+// Fonction permettant de gérer le pliage de la navbar sur les petits appareils après un clic
 function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item");
     const menuToggle = document.getElementById("navbarSupportedContent");
@@ -23,17 +23,17 @@ function handleNavbarCollapse() {
     });
 }
 
-// Function to dynamically create HTML elements from the JSON file
+// Fonction permettant de créer dynamiquement des éléments HTML à partir du fichier JSON
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
     let row = document.createElement("div");
     row.classList.add("row");
 
-    // Load the JSON file
+    // Charger le fichier JSON
     fetch("data/skills.json")
         .then((response) => response.json())
         .then((data) => {
-            // Iterate through the JSON data and create HTML elements
+            // Parcourir les données JSON et créer des éléments HTML
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
@@ -47,10 +47,10 @@ function createSkillsFromJSON() {
                     </div>
                 `;
 
-                // Append the card to the current row
+                // Ajouter le panier à la ligne actuelle
                 row.appendChild(card);
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
+                // Si l'index est un multiple de 3 ou c'est le dernier élément, créer une nouvelle ligne
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
                     container.appendChild(row);
                     row = document.createElement("div");
@@ -59,17 +59,17 @@ function createSkillsFromJSON() {
             });
         });
 }
-// Function to dynamically create HTML elements from the JSON file
+// Fonction permettant de créer dynamiquement des éléments HTML à partir du fichier JSON
 function createPortfolioFromJSON() {
     const container = document.querySelector("#portfolio .container");
     let row = document.createElement("div");
     row.classList.add("row");
 
-    // Load the JSON file
+    // Charger le fichier JSON
     fetch("data/portfolio.json")
         .then((response) => response.json())
         .then((data) => {
-            // Iterate through the JSON data and create HTML elements
+            // Parcourir les données JSON et créer des éléments HTML
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4", "d-flex");
@@ -88,10 +88,10 @@ function createPortfolioFromJSON() {
                 </div>
                 `;
 
-                // Append the card to the current row
+                // Ajouter le panier à la ligne actuelle
                 row.appendChild(card);
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
+                // Si l'index est un multiple de 3 ou c'est le dernier élément, créer une nouvelle ligne
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
                     container.appendChild(row);
                     row = document.createElement("div");
@@ -101,7 +101,7 @@ function createPortfolioFromJSON() {
         });
 }
 
-// Call the functions to execute the code
+// Appelez les fonctions pour exécuter le code lorsque la page est chargée
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();

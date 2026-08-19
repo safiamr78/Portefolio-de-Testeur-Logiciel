@@ -12,7 +12,7 @@
         "link": "https://github.com/safiamr78/Portefolio-de-Testeur-Logiciel/blob/main/documents/strategie-test-tomsen.pdf"
     },
     {
-        "image": "image3.png",
+        "image": "image3.webp",
         "title": "Application location immobilière Kasa",
         "text": "Application web de location immobilière développée avec React et Vite. Navigation multi-pages (React Router), composants réutilisables (Slideshow, Collapse, Card, Banner), gestion des erreurs avec redirection 404, design responsive, tests unitaires avec Vitest.",
         "link": "https://github.com/safiamr78/Kasa-react"
