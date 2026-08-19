@@ -55,9 +55,11 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 .hero_desc {
     font-size: 2rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 }
 .hero-text {
     text-align: center;
